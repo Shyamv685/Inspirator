@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif,Outfit;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #3f3444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 30px 10px rgb(234, 228, 228);
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #3f3444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
+img{
+    width:400px;
+}
+.card-container{
+     flex-direction: column;
+     
+ 
+}.card-container:hover{
+   
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+
+
+}.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8{
+    width:300px;
+    height:60vh;
+    margin-top: 50px;
+    margin-left:10px;
+margin-right: 60px;
+margin-bottom: 50px;
+align-items: center;
+text-align: center;
+float: initial;
+border-radius: 3%;
+box-shadow: 2px 2px 30px 5px rgb(189, 182, 182);
+border:none;
+outline:none;
+overflow: hidden;
+transition:0.5s;
+animation: ease-in;
+}.card1:hover{
+transform: scale(1.1);
+box-shadow: 0px 0px 15px 0px;
+border-color: #8e27be;
+}
+.card2:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card3:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+.card4:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}.card5:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}.card6:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}.card7:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}.card8:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}.card9:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.card1 img {
+    width: 300px;
+    border-radius: 3%;
+}.card2 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card3 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card4 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card5 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card6 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+    
+}.card7 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card8 img {
+    width: 300px;
+    align-items: center;
+    border-radius: 3%;
+}.card9 img {
+    margin-top:20px;
+    width: 400px;
+    align-items: center;
+    border-radius: 3%;
+}.card9{
+    width:800px;
+    height:65vh;
+    margin-left:350px;
+margin-right:0px;
+margin-bottom: 50px;
+align-items: center;
+text-align: center;
+float: initial;
+border-radius: 3%;
+box-shadow: 2px 2px 30px 5px rgb(189, 182, 182);
+overflow: hidden;
+transition:0.5s;
+animation: ease-in;
+}
+button{
+    margin-top:8px;
+    border-radius: 10px ;
+    color: #f8f6f9;
+    background-color: #8e27be;
+    border:none;
+    outline: none;
+    font-size: 19px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-right:8px;
+    overflow: hidden;
+transition:0.5s;
+animation: ease-in;
+border:2px solid transparent;
+}.card1 button{
+margin-top: -5PX;
+}
+button:hover{
+    transform: scale(1.1);
+    border-color: #8e27be;
+    background: transparent;
+    color:#8e27be ;
+}button:active{
+    color:#1ef2e4;
+    border: #1ef2e4;
+   transition: 0.2s;
+  
+}
