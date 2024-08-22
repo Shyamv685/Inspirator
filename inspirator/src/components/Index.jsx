@@ -9,7 +9,6 @@ function App() {
         <nav>
             <a href="#Home">Home</a>  |
             <a href="#Bio">Biography</a> |
-            <a href="#Inven">Inventions</a>
         </nav>
    </div>
 
